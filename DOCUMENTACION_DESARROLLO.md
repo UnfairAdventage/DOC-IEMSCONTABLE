@@ -1,10 +1,10 @@
-# Documentación del Proceso de Desarrollo - APP_CONTABLE
+# Documentación del Proceso de Desarrollo - IEMS-CONTABLE
 
 ## Introducción
 
 Este documento detalla el proceso de desarrollo de la aplicación contable educativa, incluyendo las decisiones técnicas, arquitectura y evolución del proyecto desde su concepción hasta su estado actual.
 
-La **APP_CONTABLE** es una aplicación web diseñada para enseñar conceptos contables y financieros de manera interactiva, utilizando técnicas de gamificación para mejorar la experiencia de aprendizaje. La aplicación incluye ejercicios prácticos, juegos educativos y contenido teórico sobre contabilidad básica, finanzas personales y aspectos fiscales.
+La **IEMS-CONTABLE** es una aplicación web diseñada para enseñar conceptos contables y financieros de manera interactiva, utilizando técnicas de gamificación para mejorar la experiencia de aprendizaje. La aplicación incluye ejercicios prácticos, juegos educativos y contenido teórico sobre contabilidad básica, finanzas personales y aspectos fiscales.
 
 ## Arquitectura General
 
@@ -61,7 +61,7 @@ CREATE TABLE exercise_results (
 - Se creó el README.md inicial con la descripción y objetivos del proyecto
 - Se configuraron los archivos básicos de TypeScript para garantizar un desarrollo con tipado estricto
 - Se definieron los requerimientos iniciales del proyecto
-- Se creó el archivo de tareas (TAREAS_APP_CONTABLE.md) para organizar el desarrollo
+- Se creó el archivo de tareas (TAREAS_IEMS-CONTABLE.md) para organizar el desarrollo
 
 #### Justificación:
 Se eligió React por su robustez en la creación de interfaces de usuario interactivas, mientras que TypeScript se seleccionó para proporcionar tipado estático, mejorando así la calidad del código y facilitando el mantenimiento futuro. La combinación de Vite como bundler ofrece un entorno de desarrollo más rápido comparado con Create React App. Esta combinación permite desarrollar una aplicación contable con componentes reutilizables y un código menos propenso a errores.
@@ -81,7 +81,7 @@ Se eligió React por su robustez en la creación de interfaces de usuario intera
 
 2. **Gestión de tareas:**
    - Se agregó sección "Siempre" en Task-List.mdc
-   - Se estableció verificación del archivo TAREAS_APP_CONTABLE.md
+   - Se estableció verificación del archivo TAREAS_IEMS-CONTABLE.md
 
 3. **Actualización de bibliotecas:**
    - Se añadieron dependencias como @formkit/drag-and-drop, class-variance-authority, clsx, tailwind-merge y uuid
@@ -170,7 +170,7 @@ La exportación por defecto simplifica las importaciones en otros archivos, mejo
 
 #### Decisiones técnicas:
 1. **Actualización de documentación:**
-   - Se actualizó TAREAS_APP_CONTABLE.md
+   - Se actualizó TAREAS_IEMS-CONTABLE.md
    - Se reflejó la finalización de tareas relacionadas con Supabase
    - Se incluyó el nuevo componente IncomeStatement
    - Se completó la sección de conceptos básicos del estado de resultados
@@ -202,7 +202,7 @@ La exportación por defecto simplifica las importaciones en otros archivos, mejo
 **Commits realizados:** 1
 
 #### Decisiones técnicas:
-- Se actualizó TAREAS_APP_CONTABLE.md
+- Se actualizó TAREAS_IEMS-CONTABLE.md
 - Se optimizaron componentes clave para dispositivos móviles:
   * **Navigation.tsx**: Implementado menú desplegable para móviles con atributos de accesibilidad
   * **ProfileDashboard.tsx**: Optimización de tarjetas y reducción de tamaño de avatares
@@ -312,7 +312,7 @@ La responsividad es esencial para garantizar que la aplicación sea accesible de
    - La selección cuidadosa de dependencias evitó problemas de compatibilidad
 
 4. **Documentación y seguimiento:**
-   - El mantenimiento de TAREAS_APP_CONTABLE.md facilitó el seguimiento del progreso
+   - El mantenimiento de TAREAS_IEMS-CONTABLE.md facilitó el seguimiento del progreso
    - La estructura clara de commits permitió una evolución controlada del proyecto
    - La documentación detallada facilita la incorporación de nuevos desarrolladores
 
