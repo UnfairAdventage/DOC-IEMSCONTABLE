@@ -61,7 +61,7 @@ Para utilizar IEMS-CONTABLE de manera óptima, necesitarás:
 Inicia tu navegador web preferido (Chrome, Firefox, Safari o Edge).
 
 ### Paso 2: Acceder a la URL
-En la barra de direcciones, escribe: `www.appcontable.com` (URL ilustrativa) y presiona Enter.
+En la barra de direcciones, escribe: `https://iems-contable.vercel.app/` (URL ilustrativa) y presiona Enter.
 
 ### Paso 3: Pantalla de bienvenida
 Serás recibido por la pantalla de bienvenida que muestra una introducción a la plataforma y opciones para iniciar sesión o registrarse.
